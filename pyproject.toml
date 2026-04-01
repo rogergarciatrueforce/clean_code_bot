@@ -1,0 +1,18 @@
+[project]
+name = "clean-code-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Roger Garcia", email = "roger.garcia@webpt.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.3.1",
+    "groq>=1.1.2",
+    "python-dotenv>=1.2.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
